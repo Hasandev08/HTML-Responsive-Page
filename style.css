@@ -1,5 +1,9 @@
-.bg-img {
+.background {
   height: 40em;
+  background-image: url('images/hero-image.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .bg-icon {
   width: 3rem;
@@ -10,7 +14,6 @@
 .heading {
   font-weight: 900;
   font-size: 4rem;
-  margin-top: 14rem;
   text-align: center;
 }
 .buy-button {
@@ -19,7 +22,7 @@
   border-right: 15px solid transparent;
   width: 12rem;
   cursor: pointer;
-  margin-top: 20rem;
+  margin-bottom: 10rem;
 }
 @media (max-width: 768px) {
   .heading {
