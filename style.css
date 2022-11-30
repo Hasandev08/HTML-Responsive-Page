@@ -1,0 +1,28 @@
+.bg-img {
+  height: 40em;
+}
+.bg-icon {
+  width: 3rem;
+}
+.nav-link:hover {
+  border-bottom: 3px solid red;
+}
+.heading {
+  font-weight: 900;
+  font-size: 4rem;
+  margin-top: 14rem;
+  text-align: center;
+}
+.buy-button {
+  border-top: 50px solid red;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  width: 12rem;
+  cursor: pointer;
+  margin-top: 20rem;
+}
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+  }
+}
