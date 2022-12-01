@@ -2,19 +2,17 @@
   height: 40em;
   background-image: url('images/hero-image.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
 }
 .bg-icon {
   width: 3rem;
 }
-.nav-link:hover {
+.component:hover {
   border-bottom: 3px solid red;
 }
 .heading {
   font-weight: 900;
   font-size: 4rem;
-  text-align: center;
 }
 .buy-button {
   border-top: 50px solid red;
@@ -24,8 +22,81 @@
   cursor: pointer;
   margin-bottom: 10rem;
 }
+.background-2 {
+  height: 40em;
+  background-image: url('images/background-img-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 95%;
+}
+.custom-icon {
+  cursor: pointer;
+  width: 12rem;
+}
+.custom-name {
+  cursor: pointer;
+}
+.play-store {
+  cursor: pointer;
+}
+.background-3 {
+  background-color: black;
+}
+.background-4 {
+  min-height: 30rem;
+  background-color: #262323;
+}
+.para-4 {
+  color: #7c7f7f;
+}
+.arrow {
+  height: 3rem;
+}
+.background-5 {
+  background-color: black;
+  height: 20rem;
+}
+.input-container {
+  border-bottom: 2px solid rgba(68, 68, 68, 0.5);
+  background-color: black;
+  width: 30rem;
+}
+.news-input {
+  background-color: black;
+}
 @media (max-width: 768px) {
   .heading {
     font-size: 2rem;
+  }
+  .heading-2 {
+    font-size: 1.5rem;
+  }
+  .heading-3 {
+    font-size: 2rem !important;
+  }
+  .para-3 {
+    font-size: 10px;
+  }
+  .heading-3-4 {
+    font-size: 16px !important;
+  }
+  .heading-4 {
+    font-size: 2.5rem !important;
+  }
+  .para-4 {
+    font-size: 8px !important;
+  }
+  .input-container {
+    width: 18rem;
+  }
+  .custom-icon {
+    width: 8rem !important;
+  }
+  .custom-name {
+    font-size: 1rem !important;
+  }
+  .play-store {
+    width: 5rem !important;
   }
 }
